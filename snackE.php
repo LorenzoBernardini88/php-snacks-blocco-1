@@ -8,12 +8,12 @@ Stampare Nome, Cognome e la media dei voti di ogni alunno. -->
 $classe = [
     [
         'nome'=> 'Lorenzo',
-        'cognome' => 'Bernardini',
-        'voti' => ['4', '6', '7', '5', '7']
+        'cognome' => 'Programma Satelliti Osnago',
+        'voti' => ['10', '10', '10', '11', '15']
     ],
     [
         'nome'=> 'Simone',
-        'cognome' => 'Massaro',
+        'cognome' => 'Massaro Lo Fanno',
         'voti' => ['2', '2', '1', '1', '1']
     ],
     [
@@ -23,13 +23,18 @@ $classe = [
     ],
     [
         'nome'=> 'Milan',
-        'cognome' => 'SerboPolemico',
+        'cognome' => 'Serbo Polemico',
         'voti' => ['9', '9', '9', '10', '10']
     ],
     [
         'nome'=> 'Walter',
         'cognome' => 'Il Mago',
         'voti' => ['6', '2', '6', '5', '7']
+    ],
+    [
+        'nome'=> 'Matteo',
+        'cognome' => 'Pompei Incredibile Impressionante',
+        'voti' => ['6', '10', '8', '9', '7']
     ],
 ]
 ?>
