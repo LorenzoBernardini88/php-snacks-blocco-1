@@ -11,32 +11,32 @@ Olimpia Milano - Cantù | 55-60 -->
         [
             'squadra1' => 'Roma',
             'squadra2' => 'Lazio',
-            'punti_squadra1' => 30,
-            'punti_squadra2' => 36,
+            'punti_squadra1' => 3,
+            'punti_squadra2' => 3,
         ],
         [
             'squadra1' => 'Empoli',
             'squadra2' => 'Fiorentina',
-            'punti_squadra1' => 56,
-            'punti_squadra2' => 70,
+            'punti_squadra1' => 1,
+            'punti_squadra2' => 0,
         ],
         [
             'squadra1' => 'Juve',
             'squadra2' => 'Torino',
-            'punti_squadra1' => 21,
-            'punti_squadra2' => 45,
+            'punti_squadra1' => 4,
+            'punti_squadra2' => 5,
         ],
         [
             'squadra1' => 'Inter',
             'squadra2' => 'Milan',
-            'punti_squadra1' => 10,
-            'punti_squadra2' => 89,
+            'punti_squadra1' => 0,
+            'punti_squadra2' => 3,
         ],
         [
             'squadra1' => 'Geonoa',
             'squadra2' => 'Sampdoria',
-            'punti_squadra1' => 32,
-            'punti_squadra2' => 40,
+            'punti_squadra1' => 1,
+            'punti_squadra2' => 1,
         ],
         
     ]
@@ -47,7 +47,7 @@ Olimpia Milano - Cantù | 55-60 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SnackA</title>
 </head>
 <body>
     <?php
