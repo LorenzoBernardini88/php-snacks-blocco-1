@@ -17,14 +17,14 @@ $numArray=[];
 <body>
     <?php
     
-    echo 'ciao';
-    while (count($numArray) == 15) {
+    while (count($numArray) < 15) {
         $num = rand(0,100);
         if(!in_array($num,$numArray)){
             $numArray[] = $num;
         }
-        echo $numArray;
     }
+    var_dump($numArray);
     ?>
+    
 </body>
 </html>
