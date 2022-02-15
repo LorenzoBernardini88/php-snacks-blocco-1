@@ -24,7 +24,7 @@ $classe = [
     [
         'nome'=> 'Milan',
         'cognome' => 'SerboPolemico',
-        'voti' => ['9', '8', '8', '7', '10']
+        'voti' => ['9', '9', '9', '10', '10']
     ],
     [
         'nome'=> 'Walter',
