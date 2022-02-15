@@ -6,7 +6,7 @@ Ogni punto un nuovo paragrafo. -->
 <!-- SVOLGIMENTO -->
 <?php
     $stringa = "Tu non puoi passare! Sono un servitore del fuoco segreto e reggo la fiamma di Anor! 
-                Il fuoco oscuro non ti servirà a nulla, fiamma di Udun! Ritorna nell'ombra!  Tu non puoi passare! ";
+                Il fuoco oscuro non ti servirà a nulla, fiamma di Udun! Ritorna nell'ombra!  Tu non puoi passare!";
     $nuovaStringa = explode('!',$stringa);
 ?>
 <!DOCTYPE html>
@@ -18,8 +18,9 @@ Ogni punto un nuovo paragrafo. -->
     <title>SnackD</title>
 </head>
 <body>
+    <p>STRINGA INTERA:</p>
     <p><?php echo $stringa; ?></p>
-    <h1>Nuova Stringa</h1>
-    <p><?php var_dump($nuovaStringa); ?></p>
+    <p>STRINGA DIVISA:</p>
+    <p><?php echo "<pre>"; var_dump($nuovaStringa); echo "</pre>" ?></p>
 </body>
 </html>
