@@ -23,7 +23,7 @@ $classe = [
     ],
     [
         'nome'=> 'Milan',
-        'cognome' => 'Polemica',
+        'cognome' => 'SerboPolemico',
         'voti' => ['9', '8', '8', '7', '10']
     ],
     [
@@ -45,7 +45,7 @@ $classe = [
     <?php
     for($i=0; $i<count($classe); $i++){
         $media = array_sum ($classe[$i]['voti']) / count ($classe[$i]['voti']).'<br>';
-        echo $media;
+        echo $classe[$i]['nome'].'-'.$classe[$i]['cognome'].'<br>'.'Media Voti:'.$media.'<br>';
     }
     ?>
 </body>
